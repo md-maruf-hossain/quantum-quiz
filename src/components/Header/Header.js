@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
+import './Header.css'
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -42,22 +43,7 @@ const Header = () => {
                   <div class="flex items-center justify-between mb-4">
                     <div>
                       <a href="/" aria-label="Company" title="Company" class="inline-flex items-center">
-                        <svg
-                          class="w-8 text-deep-purple-accent-400"
-                          viewBox="0 0 24 24"
-                          strokeLinejoin="round"
-                          strokeWidth="2"
-                          strokeLinecap="round"
-                          strokeMiterlimit="10"
-                          stroke="currentColor"
-                          fill="none"
-                        >
-                          <rect x="3" y="1" width="7" height="12" />
-                          <rect x="3" y="17" width="7" height="6" />
-                          <rect x="14" y="1" width="7" height="6" />
-                          <rect x="14" y="11" width="7" height="12" />
-                        </svg>
-                        <span class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">Company</span>
+                        <span class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">Quantum Quiz</span>
                       </a>
                     </div>
                     <div>
@@ -79,39 +65,24 @@ const Header = () => {
                   <nav>
                     <ul class="space-y-4">
                       <li>
-                        <a href="/" aria-label="Our product" title="Our product" class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">
-                          Product
-                        </a>
+                        <Link to="/" aria-label="Our product" title="Our product" class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">
+                          Home
+                        </Link>
                       </li>
                       <li>
-                        <a href="/" aria-label="Our product" title="Our product" class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">
-                          Features
-                        </a>
+                        <Link to="/analysis" aria-label="Our product" title="Our product" class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">
+                          Analysis
+                        </Link>
                       </li>
                       <li>
-                        <a
-                          href="/"
+                        <Link
+                          to="/blog"
                           aria-label="Product pricing"
                           title="Product pricing"
                           class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
-                          Pricing
-                        </a>
-                      </li>
-                      <li>
-                        <a href="/" aria-label="About us" title="About us" class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">
-                          About us
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="/"
-                          class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
-                          aria-label="Sign up"
-                          title="Sign up"
-                        >
-                          Sign up
-                        </a>
+                          Blog
+                        </Link>
                       </li>
                     </ul>
                   </nav>
