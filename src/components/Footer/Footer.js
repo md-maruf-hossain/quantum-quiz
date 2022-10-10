@@ -23,107 +23,102 @@ const Footer = () => {
               <ul className="mt-2 space-y-2">
                 <li>
                   <Link to="/" className="transition-colors duration-300 text-white hover:text-orange-300">
-                    News
+                    Front-end Dev
                   </Link>
                 </li>
                 <li>
                   <Link to="/" className="transition-colors duration-300 text-white hover:text-orange-300">
-                    World
+                  Back-end Dev
                   </Link>
                 </li>
                 <li>
                   <Link to="/" className="transition-colors duration-300 text-white hover:text-orange-300">
-                    Games
+                    Game Dev
                   </Link>
                 </li>
                 <li>
                   <Link to="/" className="transition-colors duration-300 text-white hover:text-orange-300">
-                    References
-                  </Link>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <p className="font-semibold tracking-wide text-orange-300">Cherry</p>
-              <ul className="mt-2 space-y-2">
-                <li>
-                  <Link to="/" className="transition-colors duration-300 text-white hover:text-orange-300">
-                    Web
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/" className="transition-colors duration-300 text-white hover:text-orange-300">
-                    eCommerce
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/" className="transition-colors duration-300 text-white hover:text-orange-300">
-                    Business
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/" className="transition-colors duration-300 text-white hover:text-orange-300">
-                    Entertainment
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/" className="transition-colors duration-300 text-white hover:text-orange-300">
-                    Portfolio
+                    App Dev
                   </Link>
                 </li>
               </ul>
             </div>
             <div>
-              <p className="font-semibold tracking-wide text-orange-300">Apples</p>
+              <p className="font-semibold tracking-wide text-orange-300">Language</p>
               <ul className="mt-2 space-y-2">
                 <li>
                   <Link to="/" className="transition-colors duration-300 text-white hover:text-orange-300">
-                    Media
+                    C++
                   </Link>
                 </li>
                 <li>
                   <Link to="/" className="transition-colors duration-300 text-white hover:text-orange-300">
-                    Brochure
+                    C#
                   </Link>
                 </li>
                 <li>
                   <Link to="/" className="transition-colors duration-300 text-white hover:text-orange-300">
-                    Nonprofit
+                    PHP
                   </Link>
                 </li>
                 <li>
                   <Link to="/" className="transition-colors duration-300 text-white hover:text-orange-300">
-                    Educational
+                    Python
                   </Link>
                 </li>
                 <li>
                   <Link to="/" className="transition-colors duration-300 text-white hover:text-orange-300">
-                    Projects
+                    JavaScript
                   </Link>
                 </li>
               </ul>
             </div>
             <div>
-              <p className="font-semibold tracking-wide text-orange-300">Business</p>
+              <p className="font-semibold tracking-wide text-orange-300">Front-end Dev</p>
               <ul className="mt-2 space-y-2">
                 <li>
                   <Link to="/" className="transition-colors duration-300 text-white hover:text-orange-300">
-                    Infopreneur
+                    HTML
                   </Link>
                 </li>
                 <li>
                   <Link to="/" className="transition-colors duration-300 text-white hover:text-orange-300">
-                    Personal
+                    CSS
                   </Link>
                 </li>
                 <li>
                   <Link to="/" className="transition-colors duration-300 text-white hover:text-orange-300">
-                    Wiki
+                    JavaScript
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/" className="transition-colors duration-300 text-white hover:text-orange-300">
+                    React
+                  </Link>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <p className="font-semibold tracking-wide text-orange-300">Full-Stack Dev</p>
+              <ul className="mt-2 space-y-2">
+                <li>
+                  <Link to="/" className="transition-colors duration-300 text-white hover:text-orange-300">
+                    MongoDB
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/" className="transition-colors duration-300 text-white hover:text-orange-300">
+                    Express
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/" className="transition-colors duration-300 text-white hover:text-orange-300">
+                    React
                   </Link>
                 </li>
                 <li>
                   <Link a to="/" className="transition-colors duration-300 text-white hover:text-orange-300">
-                    Forum
+                    Node JS
                   </Link>
                 </li>
               </ul>
