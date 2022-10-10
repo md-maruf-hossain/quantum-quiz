@@ -1,7 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Swal from 'sweetalert2'
+
+
 
 const Blog = () => {
+    const notify = () => {
+        Swal.fire(
+            'New Blogs are coming soon!',
+            '',
+            'info'
+          )
+    };
   return (
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
       <div className="mb-10 border-t border-b divide-y">
@@ -55,7 +65,7 @@ const Blog = () => {
           <div className="mb-4 sm:mb-0">
             <div className="space-y-1 text-xs font-semibold tracking-wide uppercase">
               <Link to="/blog" className="transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800" aria-label="Category">
-                Detective
+                blog
               </Link>
               <p className="text-gray-600">28 Dec 2022</p>
             </div>
@@ -78,12 +88,12 @@ const Blog = () => {
         </div>
       </div>
       <div className="text-center">
-        <Link to="/blog" aria-label="" className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">
+        <button className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-orange-400" onClick={notify}>
           See all articles
           <svg className="inline-block w-3 ml-2" fill="currentColor" viewBox="0 0 12 12">
             <path d="M9.707,5.293l-5-5A1,1,0,0,0,3.293,1.707L7.586,6,3.293,10.293a1,1,0,1,0,1.414,1.414l5-5A1,1,0,0,0,9.707,5.293Z" />
           </svg>
-        </Link>
+        </button>
       </div>
     </div>
   );
