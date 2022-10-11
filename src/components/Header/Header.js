@@ -10,7 +10,7 @@ const Header = () => {
       <div class="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
         <div class="relative flex items-center justify-between">
           <Link to="/" aria-label="Company" title="Company" class="inline-flex items-center">
-            <span class="ml-2 text-xl font-bold tracking-wide text-gray-100 uppercase">Quantum Quiz</span>
+            <span class="ml-2 text-xl font-bold tracking-wide text-orange-400 uppercase">Quantum Quiz</span>
           </Link>
           <ul class="flex items-center hidden space-x-8 lg:flex">
             <li>

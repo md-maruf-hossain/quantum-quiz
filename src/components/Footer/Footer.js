@@ -48,11 +48,6 @@ const Footer = () => {
               <ul className="mt-2 space-y-2">
                 <li>
                   <Link to="/" className="transition-colors duration-300 text-white hover:text-orange-300">
-                    C++
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/" className="transition-colors duration-300 text-white hover:text-orange-300">
                     C#
                   </Link>
                 </li>
