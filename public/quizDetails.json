@@ -6,9 +6,12 @@
       "id": 1,
       "name": "React",
       "logo": "https://live.staticflickr.com/65535/52413593240_e00326e727_o.png",
-      "questions": [
+      "questions": 
+      [
         {
-          "options": ["building  User Interface", "building Database", "building User Data Flow", "building  Shop"],
+          "options": [
+            "building  User Interface", "building Database", "building User Data Flow", "building  Shop"
+          ],
           "id": "632800dfb0e009073fe05300",
           "question": "<p>React is mainly used&nbsp;for _______ (if needed, google it)</p>",
           "correctAnswer": "building  User Interface"
