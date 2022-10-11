@@ -14,7 +14,10 @@ const Footer = () => {
               <span className="ml-2 text-xl font-bold tracking-wide text-orange-300 uppercase">Quantum Quiz</span>
             </Link>
             <div className="mt-4 lg:max-w-sm">
-              <p className="text-sm text-white text-justify">Tutorials Website is a free online resource on programming and digital marketing for beginners. It was founded in Jan 2016 by Pradeep Maurya to deliver the best and fresh articles for students and our readers to skill up as they would like to.</p>
+              <p className="text-sm text-white text-justify">
+                Tutorials Website is a free online resource on programming and digital marketing for beginners. It was founded in Jan 2016 by Pradeep Maurya to deliver the best and fresh articles for
+                students and our readers to skill up as they would like to.
+              </p>
             </div>
           </div>
           <div className="grid grid-cols-2 gap-5 row-gap-8 lg:col-span-4 md:grid-cols-4">
@@ -28,7 +31,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link to="/" className="transition-colors duration-300 text-white hover:text-orange-300">
-                  Back-end Dev
+                    Back-end Dev
                   </Link>
                 </li>
                 <li>
@@ -121,7 +124,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="flex flex-col justify-between pt-5 pb-10 border-t border-deep-purple-accent-200 sm:flex-row">
-          <p className="text-sm text-white">© Copyright 2020 Lorem Inc. All rights reserved.</p>
+          <p className="text-sm text-white">© Copyright 2022 Quantum Quiz. All rights reserved.</p>
           <div className="flex items-center mt-4 space-x-4 sm:mt-0">
             <Link to="/" className="transition-colors duration-300 text-white hover:text-orange-300">
               <svg viewBox="0 0 24 24" fill="currentColor" className="h-5">

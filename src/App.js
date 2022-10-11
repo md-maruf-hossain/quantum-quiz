@@ -3,6 +3,7 @@ import "./App.css";
 import Analysis from "./components/Analysis/Analysis";
 import Blog from "./components/Blog/Blog";
 import Home from "./components/Home/Home";
+import NotFoundPage from "./components/NotFoundPage/NotFoundPage";
 import Main from "./layouts/Main";
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
         },
       ],
     },
+    { path: "*", element: <NotFoundPage></NotFoundPage>}
   ]);
   return (
     <div>
