@@ -45,7 +45,7 @@ const QuizQuestion = ({ quizTotalQuestion }) => {
             ))}
           </p>
           <button className="flex justify-around" onClick={() => setopen(!open)}>
-            <EyeSlashIcon className="h-6 w-6" />
+            <EyeSlashIcon className="h-6 w-6 mr-5" />
             <span>
               {open ? (
                 <p>
@@ -53,7 +53,7 @@ const QuizQuestion = ({ quizTotalQuestion }) => {
                   <span className="font-bold">{correctAnswer}</span>
                 </p>
               ) : (
-                <p className="hidden">
+                <p className="invisible">
                   <span className="font-bold text-orange-400">Answer: </span>
                   <span className="font-bold">{correctAnswer}</span>
                 </p>
